@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 400px;
+}
+.container{
+    margin: 20px;
+}
+input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 6px;
+    text-decoration: none;
+    margin-top: 10px;
+}
+button{
+    margin-top: 10px;
+    height: 30px;
+    width: 110px;
+    background-color: rgb(145, 8, 199);
+    color: white;
+    border:2px 2px black;
+    border-radius: 5px;
+}
+#save,#tab,#del{
+    font-weight: bolder;
+    text-shadow: 1.5px 1.2px black;
+}
+#del{
+    background-color: #fff;
+    color: rgb(181, 32, 240);
+    text-shadow: 1px 1px black;
+}
+#ul{
+    margin-top: 10px;
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+ul{
+    
+    list-style: none;
+}
+li{
+    padding-top: 10px;
+}
+a{
+    color: rgb(181, 32, 240);
+}
